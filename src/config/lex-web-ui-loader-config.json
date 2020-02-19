@@ -15,23 +15,17 @@
   },
   "ui": {
     "parentOrigin": "",
-    "toolbarTitle": "Order Config",
+    "toolbarTitle": "Mona",
     "toolbarLogo": "",
     "positiveFeedbackIntent": "",
     "negativeFeedbackIntent": "",
-    "helpIntent": "help",
+    "helpIntent": "",
     "enableLogin": false,
     "AllowSuperDangerousHTMLInMessage": true,
     "shouldDisplayResponseCardTitle": false,
-    "pushInitialTextOnRestart": false,
+    "pushInitialTextOnRestart": true,
     "directFocusToBotInput": false,
     "showDialogStateIcon": false
-  },
-  "polly": {
-    "voiceId": "Salli"
-  },
-  "recorder": {
-    "preset": "speech_recognition"
   },
   "iframe": {
     "iframeOrigin": "",

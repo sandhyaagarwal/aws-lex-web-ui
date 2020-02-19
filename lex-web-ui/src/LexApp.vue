@@ -41,7 +41,6 @@ function getToolbarLogo() {
     // https://webpack.github.io/docs/context.html
     require.context('@/assets', false, /^\.\/logo.(png|jpe?g|svg)$/);
   const toolbarLogoRequireKey = toolbarLogoRequire.keys().pop();
-
   return (toolbarLogoRequireKey) ?
     toolbarLogoRequire(toolbarLogoRequireKey) :
     flowerLogo;
@@ -73,7 +72,7 @@ export default {
   data() {
     return {
       favIcon: getFavIcon(),
-      pageTitle: 'Order Flowers Bot',
+      pageTitle: 'Mona',
     };
   },
 };

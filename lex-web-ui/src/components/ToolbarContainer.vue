@@ -6,39 +6,9 @@
     dense
     fixed
   >
-    <img v-if="toolbarLogo" v-bind:src="toolbarLogo"/>
+    <img v-if="toolbarLogo" v-bind:src="toolbarLogo" width="55"/>
 
-    <v-menu v-if="isEnableLogin" offset-y>
 
-      <v-btn
-        slot="activator"
-        dark
-        icon
-      >
-        <v-icon>
-          {{'menu'}}
-        </v-icon>
-      </v-btn>
-
-      <v-list>
-        <v-list-tile>
-          <v-list-tile-title v-if="isLoggedIn" v-on:click="requestLogout">{{ items[1].title }}</v-list-tile-title>
-          <v-list-tile-title v-if="!isLoggedIn" v-on:click="requestLogin">{{ items[0].title }}</v-list-tile-title>
-        </v-list-tile>
-      </v-list>
-    </v-menu>
-
-    
-    <div class="nav-buttons">
-      <v-btn small icon :disabled="isBackProcessing" class="nav-button-prev" v-on="prevNavEventHandlers" v-on:click="onPrev" v-show="hasPrevUtterance">
-        <v-icon>
-          arrow_back
-        </v-icon>
-      </v-btn>
-      <v-tooltip v-model="prevNav" activator=".nav-button-prev" right>
-        <span>Previous</span>
-      </v-tooltip>
-    </div>
     
 
 
@@ -66,17 +36,7 @@
     >
       <span id="help-tooltip">help</span>
     </v-tooltip>
-    <v-btn
-      v-if="helpButton"
-      v-on:click="sendHelp"
-      v-on="tooltipHelpEventHandlers"
-      icon
-      class="help-toggle"
-    >
-      <v-icon>
-        help_outline
-      </v-icon>
-    </v-btn>
+
     <v-btn
       v-if="$store.state.isRunningEmbedded"
       v-on:click="toggleMinimize"

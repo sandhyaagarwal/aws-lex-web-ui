@@ -1,19 +1,19 @@
 {
   "cognito": {
-    "poolId": "us-east-1:06de3a58-1e89-4048-95bc-0d8cbd750d37"
+    "poolId": "us-east-1:c794cb47-c209-470f-ab92-7a56ae2e39c5"
   },
   "lex": {
-    "botName": "QNA_dev_dev_master_two_Botba",
-    "initialText": "You can ask me for help ordering flowers. Just type \"order flowers\" or click on the mic and say it.",
-    "initialSpeechInstruction": "Say 'Order Flowers' to get started."
+    "botName": "GPM_NIGHTLY_DEV",
+    "initialText": "hi",
+    "initialSpeechInstruction": "hi"
   },
   "polly": {
     "voiceId": "Salli"
   },
   "ui": {
     "parentOrigin": "http://localhost:8080",
-    "pageTitle": "Order Config Bot",
-    "toolbarTitle": "Order Config",
+    "pageTitle": "Mona",
+    "toolbarTitle": "Mona",
     "enableLogin": true,
     "pushInitialTextOnRestart": false,
     "shouldDisplayResponseCardTitle": false,

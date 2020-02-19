@@ -112,7 +112,7 @@ const configDefault = {
   ui: {
     // TODO may want to move pageTitle out to LexApp or Page component
     // title of HTML page added dynamically to index.html
-    pageTitle: 'Order Flowers Bot',
+    pageTitle: 'Mona',
 
     // when running as an embedded iframe, this will be used as the
     // be the parent origin used to send/receive messages
@@ -124,12 +124,12 @@ const configDefault = {
     parentOrigin: null,
 
     // chat window text placeholder
-    textInputPlaceholder: 'Type here or click on the mic',
+    textInputPlaceholder: 'Type here',
 
-    toolbarColor: 'red',
+    toolbarColor: 'blue',
 
     // chat window title
-    toolbarTitle: 'Order Flowers',
+    toolbarTitle: 'Mona',
 
     // logo used in toolbar - also used as favicon not specificied
     toolbarLogo: '',
