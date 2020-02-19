@@ -180,6 +180,10 @@ export default {
 };
 </script>
 <style>
+.mnblue {
+    background-color: #1589ee!important
+}
+
 .toolbar-color {
   background-color: #003DA5 !important;
 }

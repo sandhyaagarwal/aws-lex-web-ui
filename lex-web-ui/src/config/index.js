@@ -126,7 +126,7 @@ const configDefault = {
     // chat window text placeholder
     textInputPlaceholder: 'Type here',
 
-    toolbarColor: 'blue',
+    toolbarColor: 'mnblue',
 
     // chat window title
     toolbarTitle: 'Mona',
